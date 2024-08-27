@@ -37,7 +37,7 @@ MEMORY
     ram0   (wx) : org = 0x24000000, len = 320k      /* AXI SRAM */
     ram1   (wx) : org = 0x30000000, len = 32k       /* AHB SRAM1+SRAM2 */
     ram2   (wx) : org = 0x30000000, len = 16k       /* AHB SRAM1 */
-    ram3   (wx) : org = 0x30002000, len = 16k       /* AHB SRAM2 */
+    ram3   (wx) : org = 0x30004000, len = 16k       /* AHB SRAM2 */
     ram4   (wx) : org = 0x38000000, len = 16k       /* AHB SRAM4 */
     ram5   (wx) : org = 0x20000000, len = 128k      /* DTCM-RAM */
     ram6   (wx) : org = 0x00000000, len = 64k       /* ITCM-RAM */
